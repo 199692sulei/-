@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+}
+.login{
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/bg.png');
+    background-repeat: no-repeat;
+    background-color: #fef9f0;
+    background-position: center center;
+}
+.login-inner{
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.login-inner .title-logo{
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+}
+.login-form{
+    background: #fff;
+    width: 450px;
+    padding: 50px;
+    border-top: 5px solid #dd3e42;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.login-form h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.login-form h2 span{
+    display: inline-block;
+    color: #dd3e42;
+    border-bottom: 1px solid #ee3e42;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.login-form li{
+    position: relative;
+    margin-bottom: 20px;
+}
+.login-form li input{
+    width: 100%;
+    padding: 12px;
+    height: 54px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.login-form li .label-img{
+   position: absolute;
+   right: 12px;
+   top: 50%;
+   margin-top: -10px;
+   width: 20px;
+   height: 20px;
+} 
+.login-form li .label-img img{
+    width: 100%;
+}
+.login-form li .label-error{
+    position: absolute;
+    left: 12px;
+    bottom: -8px;
+    background: #fff;
+}
+.login-form li .text-error{
+    color: orange;
+}
+.login-form .error{
+    color: #ee3e42;
+}
+.login-form .hide{
+    display: none;
+    content: '输入错误,请检查手机号或密码';
+}
+.login-form .login-tab1{
+    position: relative;
+    width: 100%;
+    margin: 20px 0 40px;
+    color: #999;
+}
+.login-form .login-tab1>div{
+    display: inline-block;
+}
+.login-form .login-tab1 .btn-login{
+    width: 150px;
+    height: 45px;
+    background-color: #ee3e42;
+    color: #fff;
+    line-height: 45px;
+    border: none;
+    cursor: pointer;
+}
+.login-form .login-tab1-item1 a{
+    color: #ee3e42;
+}
+.login-form .login-tab1-item2 a{
+    color: #999;
+    margin-left: 30px;
+}
+.login-form .login-tab2 {
+    width: 100%;
+    text-align: center;
+}
+.login-form .login-tab2 a{
+    margin: 0 30px;
+    color: #999;
+}
+.login-form .login-tab2 img{
+    width: 36px;
+    height: 36px;
+    margin-right: 7px;
+    vertical-align: middle;
+}

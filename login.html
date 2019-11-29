@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login">
+          <div class="login-inner">
+              <image class="title-logo" src="../image/logo2.png" ></image>
+              <div class="login-form">
+                 <h2><span>登录</span></h2>
+                 <ul>
+                     <li>
+                         <input type="text" id="user" class="user" placeholder="请输入手机号">
+                         <label for="user" class="label-img"><img src="../image/user.png" alt=""></label>
+                         <label for="user" class="label-error">
+                             <div class="text-error">11位手机号</div>
+                         </label>
+                     </li>
+                     <li>
+                         <input type="password" id="key" class="key" placeholder="请输入密码">
+                         <label for="key" class="label-img"><img src="../image/key.png" alt=""></label>
+                         <label for="key" class="label-error">
+                             <div class="text-error">首字母大写且不少于六位</div>
+                         </label>
+                     </li>
+                 </ul>
+                 <div class="error hide">输入错误,请查看手机号或密码格式</div>
+                 <div class="login-tab1">
+                     <div class="login-tab1-item1">
+                         <button class="btn-login">登录</button>
+                         不是会员？
+                         <a href="#">去注册</a>
+                     </div>
+                     <div class="login-tab1-item2">
+                         <a href="#">忘记密码？</a>
+                     </div>
+                 </div>
+                 <div class="login-tab2">
+                     <a href="#">
+                         <img src="../image/weixin.png" alt="">
+                         微信登录
+                     </a>
+                     <a href="#">
+                         <img src="../image/zhifubao.png" alt="">
+                         支付宝登录
+                     </a>
+                 </div>
+
+              </div>
+          </div>
+
+
+    </div>
+    
+
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    background-image: url(./image/bg.png);
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width: 600px;
+    height: 600px;
+    border: 1px solid red;
+    margin: 80px auto;
+}
+.wrapper .inner{
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+.wrapper .inner h2 span{
+    margin-left: 268px;
+    color:#f40;
+    font-size: 30px;
+}
+.wrapper .inner ul li{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.wrapper .inner ul li .user,
+.wrapper .inner ul li .pwd,
+.wrapper .inner ul li .repwd,
+.wrapper .inner ul li .email,
+.wrapper .inner ul li .place{
+    width: 400px;
+    padding: 12px;
+    height: 54px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #999999;
+    /* text-align: center; */
+}
+#errorPhone,#errorPwd,#errorRepwd,#errorMail,#errorPlace{
+    font-size: 14px;
+    color: red;
+
+}
+.wrapper .inner .btn{
+    width: 400px;
+    height: 80px;
+    /* border: 1px solid red; */
+    margin-left: 100px;
+    margin-top: 20px;
+    outline: none;
+}
+.wrapper .inner .btn .btnLeft{
+    width: 100px;
+    height: 54px;
+    /* padding: 20px 10px; */
+    font-size: 20px;
+    color: red;
+    margin-right: 120px;
+    margin-left: 40px;
+    background: #3f89ec;
+}
+.wrapper .inner .btn .btnRight{
+    width: 100px;
+    height: 54px;
+    font-size: 20px;
+    background: #3f89ec;
+}
+.wrapper .inner .btn  button a{
+    color:#fff ;
+}

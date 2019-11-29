@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./check.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="inner">
+            <h2><span>登录</span></h2>
+            <form action="" method="get">
+                <ul>
+                    <li>
+                        <input type="text" value="请输入手机号" id="user" class="user" onblur="inpblur()" onfocus="inpfocus()">
+                        <p id="errorPhone"></p>
+                    </li>
+                    <li>
+                            <input type="password" value="" id="pwd" class="pwd" onblur="pwdblur()" onfocus="pwdfocus()">
+                            <p id="errorPwd"></p>
+                    </li>
+                    <li>
+                            <input type="password" value="" id="repwd" class="repwd" onblur="repwdblur()" onfocus="repwdfocus()">
+                            <p id="errorRepwd"></p>
+                    </li>
+                    <li>
+                            <input type="email" value="请输入邮箱" id="email" class="email" onblur="mailblur()" onfocus="mailfocus()">
+                            <p id="errorMail"></p>
+                    </li>
+                    <li>
+                            <input type="text" value="请输入区号" id="place" class="place" onblur="placeblur()" onfocus="placefocus()">
+                            <p id="errorPlace"></p>
+                    </li>
+                </ul>
+                <div class="btn">
+                    <button class="btnLeft" id="login"><a href="#" id="text">登录</a></button>
+                    <button class="btnRight" id="regis"><a href="https://www.jd.com">注册</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./check.js"></script>
+</body>
+
+</html>
